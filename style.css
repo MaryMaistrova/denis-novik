@@ -40,7 +40,27 @@ div {
   margin-left: 96.5px;
 }
 
+
 .portfolio {
   width: 970px;
   margin: auto;
+  
+}
+
+.portfolio li {
+  list-style-type: none;
+  width: auto;
+  margin: auto;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer li :not(:first-child) {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
 }
