@@ -1,10 +1,46 @@
 body {
-    
+  font-family: "Open Sans", sans-serif;
+
+}
+
+header {
+  width: 970px;
+  margin: auto;
 }
 
 header ul {
   display: flex;
-  list-style-type: none
-  
+  list-style-type: none;
+  gap: 40px;
+  justify-content: center;
+
 }
 
+.hero {
+  width: 970px;
+  margin: auto;
+}
+
+div {
+  width: 970px;
+  margin: auto;
+}
+
+.skills ul {
+  display: flex;
+  list-style-type: none;
+  width: 970px;
+  margin: auto;
+
+}
+
+.skills ul li :not(:first-child) {
+  width: 170px;
+  height: 230px;
+  margin-left: 96.5px;
+}
+
+.portfolio {
+  width: 970px;
+  margin: auto;
+}
