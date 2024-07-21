@@ -21,36 +21,45 @@ header ul {
   margin: auto;
 }
 
-div {
-  width: 970px;
+.presentation {
+  width: 100%;
   margin: auto;
+  text-align: center;
+  background-color: #F6F6F6;
+  padding-bottom: 100px;
+}
+
+.presentation p {
+  margin-bottom: 30px;
+}
+
+.skills {
+  text-align: center;
+  max-width: 970px;
 }
 
 .skills ul {
   display: flex;
+  justify-content: space-between;
   list-style-type: none;
-  width: 970px;
-  margin: auto;
-
+  align-items: center;
 }
 
-.skills ul li :not(:first-child) {
-  width: 170px;
-  height: 230px;
-  margin-left: 96.5px;
+#figma {
+  margin-top: 18px;
 }
-
 
 .portfolio {
-  width: 970px;
-  margin: auto;
-  
+  width: 100%;
+  background-color: #F6F6F6;
+
 }
 
 .portfolio li {
   list-style-type: none;
   width: auto;
   margin: auto;
+  text-align: center;
 }
 
 footer ul {
