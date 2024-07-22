@@ -79,10 +79,18 @@ footer {
 
 footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
-  max-width: 330px;
   margin: auto;
+  margin-left: 20px;
+}
+
+footer ul *+* {
+  margin-right: 30px;
+}
+
+footer ul :first-of-type {
+  margin-right: 30px;
 }
 
 footer p,
