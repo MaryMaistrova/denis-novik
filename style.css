@@ -19,6 +19,10 @@ header ul {
   justify-content: center;
 }
 
+nav ul :hover{
+  font-weight: bold;
+}
+
 .hero {
   width: 970px;
   margin: auto;
@@ -93,9 +97,17 @@ footer ul :first-of-type {
   margin-right: 30px;
 }
 
+footer ul :hover {
+  opacity: 0.5;
+}
+
 footer p,
 button {
   margin-bottom: 60px;
+}
+
+button :hover {
+  background-color: #828282;
 }
 
 h2 {
